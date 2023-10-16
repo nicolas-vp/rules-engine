@@ -1,0 +1,25 @@
+server:
+  port: "8082"
+
+dmn-service:
+  service-name: "DMN-SERVICE"
+  url: "http://"
+
+db-service:
+  service-name: "DB-SERVICE"
+
+eureka:
+  url: "http://localhost:8761/eureka"
+
+cache:
+  nodes: "http://localhost:4001,http://localhost:4002"
+  host: "localhost:4001"
+
+clickhouse:
+  host: "localhost:9000"
+  database: "default"
+  username: ""
+  password: ""
+  "debug": "false"
+
+debug: "true"
